@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    margin: 0px;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    height: 30px;
+    background-color: red;
+}
+.slider{
+    flex: 1;
+    overflow: hidden;
+}
+.slider--width{
+
+    height: 100%;
+    display: flex;
+    transition: all ease 0.3s;
+
+
+
+}
+.slider--item{
+    width: 100vw;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
